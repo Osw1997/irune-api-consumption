@@ -72,3 +72,4 @@ print(f"Trave value for {type}, {freq}, {px}, {ps}, {r}, {p}, {rg}, {cc} is {com
 type, freq, px, ps, r, p, rg, cc = 'C', 'M', 'HS', '202501', '398', '0', '1', 'TOTAL'
 print(f"Trave value for {type}, {freq}, {px}, {ps}, {r}, {p}, {rg}, {cc} is {comtrade.get_trade_value_imports(type=type, freq=freq, px=px, ps=ps, r=r, p=p, rg=rg, cc=cc)}", end="\n\n")
 
+# TODO: Pedir lista-rango parámetros a usar

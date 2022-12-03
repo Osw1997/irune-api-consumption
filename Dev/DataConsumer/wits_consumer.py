@@ -64,3 +64,5 @@ print(f"HHI index for {iso3code} and year {year} is {wc.get_hhi_index(iso3code=i
 
 # # Print iso3 codes.
 # print(wc.get_list_iso3codes())
+
+# TODO: Pedir lista-rango parámetros a usar
