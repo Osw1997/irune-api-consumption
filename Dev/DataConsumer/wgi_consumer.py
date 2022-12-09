@@ -54,8 +54,6 @@ class WGIConsumer:
         melt_table.to_csv(file_path, index=False)
         return None
 
-
-
     def load_file(self):
         self.df_wgi = pd.read_csv(f"{self.path_wgi_folder}\{self.file}")
 
@@ -94,3 +92,4 @@ year, country = 2014, "Mexico"
 gi_value = wgi.query_data(year=year, country=country)
 print(f"Commercial value for [{year}, {country}] is {gi_value}")
 
+# NOTA 9/dic/2022: EL estimado va de +-2.5 --> hay que normalizarlo.
