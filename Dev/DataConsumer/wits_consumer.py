@@ -52,17 +52,17 @@ class WitsConsumer:
         
         return petition
 
-# TESTS
+# # TESTS
 
-# Print HHI index given a country/region and year.
-wc = WitsConsumer()
-iso3code, year = "mex", 2018
-print(f"--> HHI index for {iso3code} and year {year} is {wc.get_hhi_index(iso3code=iso3code, year=year)}", end="\n\n")
+# # Print HHI index given a country/region and year.
+# wc = WitsConsumer()
+# iso3code, year = "mex", 2018
+# print(f"--> HHI index for {iso3code} and year {year} is {wc.get_hhi_index(iso3code=iso3code, year=year)}", end="\n\n")
 
-iso3code, year = "mex", 2072
-print(f"HHI index for {iso3code} and year {year} is {wc.get_hhi_index(iso3code=iso3code, year=year)}", end="\n\n")
+# iso3code, year = "mex", 2072
+# print(f"HHI index for {iso3code} and year {year} is {wc.get_hhi_index(iso3code=iso3code, year=year)}", end="\n\n")
 
-# # Print iso3 codes.
-# print(wc.get_list_iso3codes())
+# # # Print iso3 codes.
+# # print(wc.get_list_iso3codes())
 
-# TODO: Pedir lista-rango parámetros a usar
+# # TODO: Pedir lista-rango parámetros a usar
