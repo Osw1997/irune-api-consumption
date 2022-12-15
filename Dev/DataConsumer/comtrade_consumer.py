@@ -1,10 +1,11 @@
 import requests
+import json
 
 class ComtradeConsumer:
     def __init__(self):
         pass
 
-    def get_trade_value_imports(self, type=None, freq=None, px=None, ps=None, r=None, p=None, rg=None, cc=None) -> float:
+    def get_trade_value_imports(self, type=None, freq=None, px=None, ps=None, r=None, p=None, rg=None, cc=None) -> list:
         """
             Function that returns value of imports of resource {{cc}} from country {{r}} to country {{p}}
             Args:
@@ -47,19 +48,29 @@ class ComtradeConsumer:
         url = f"https://comtrade.un.org/api/get?type={type}&freq={freq}&px={px}&ps={ps}&r={r}&p={p}&rg={rg}&cc={cc}"
         
 
-        trade_value = None
+        trade_value = []
         try:
             petition = requests.get(url=url).json()
             # Get tradee value from petition
-            trade_value = petition["dataset"][0]["TradeValue"]
+            trade_value = petition["dataset"]
         except requests.ConnectionError as ce:
-            print(f"[get_hhi_index][ERROR] Something happened in the request connection: {ce}")
+            print(f"[get_trade_value_imports][ERROR] Something happened in the request connection: {ce}")
         except Exception as e:
-            print(f"[get_hhi_index][ERROR] Something happened: {e}")
-
-        
+            print(f"[get_trade_value_imports][ERROR] Something happened: {e}")
 
         return trade_value
+
+    def get_reporter_countries(self):
+        list_countries = None
+        try:
+            petition = requests.get("https://comtrade.un.org/Data/cache/reporterAreas.json")
+            petition_decoded = json.loads(petition.content.decode("utf-8-sig"))
+            list_countries = petition_decoded["results"]
+        except Exception as e:
+            print(f"[get_reporter_countries][ERROR] Something happened: {e}")
+            
+        
+        return list_countries
 
 
 # # TESTS
@@ -73,3 +84,9 @@ class ComtradeConsumer:
 # print(f"Trave value for {type}, {freq}, {px}, {ps}, {r}, {p}, {rg}, {cc} is {comtrade.get_trade_value_imports(type=type, freq=freq, px=px, ps=ps, r=r, p=p, rg=rg, cc=cc)}", end="\n\n")
 
 # # TODO: Pedir lista-rango parámetros a usar
+
+# # Get list of reporter countries
+# comtrade = ComtradeConsumer()
+# lca = comtrade.get_reporter_countries()
+# print(type(lca))
+# print(lca)
