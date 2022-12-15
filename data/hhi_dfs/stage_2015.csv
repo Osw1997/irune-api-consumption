@@ -1,0 +1,486 @@
+,Year,Country,iso3code,hhi
+0,2015,Selected Developing Countries for Switzerland,A01,
+1,2015,Caribbean Economic Recovery Act: USA 2007,A02,
+2,2015,Caribbean Economic Recovery Act: USA 2009,A03,
+3,2015,Preferential tariff for selected african countries,A04,
+4,2015,Norway tariff for lower income GSP countries,A05,
+5,2015,Preferential tariff for COMESA FTA,A07,
+6,2015,Preferential tariff for COMESA Non-FTA,A08,
+7,2015,(SAARC) Preferential for Sri Lanka and Pakistan,A09,
+8,2015,"CAFTA-DR-USA:CRI, DOM, SLV, GTM, HND, USA",A10,
+9,2015,Preferential tariff for EU + EFTA,A11,
+10,2015,(SAARC) Preferential for Sri Lanka and India,A12,
+11,2015,(AANZFTA) Preferential for AUS and NZL,A13,
+12,2015,(COMESA) Preferential for Uganda and Eritrea,A14,
+13,2015,Egypt (GSTP) Countries ,A15,
+14,2015,Egypt (GSTP) Selected LDCs Countries,A16,
+15,2015,LDC Beneficiaries in 2014,A17,
+16,2015,LDC Beneficiaries in 2014,A18,
+17,2015,Switzerland & Liechtenstein LDC beneficiary 2014,A19,
+18,2015,GSP for LDC Beneficiaries: Japan 2014,A20,
+19,2015,LDC Beneficiaries: Tajikistan 2014,A21,
+20,2015,GSP for LDC Beneficiaries: USA 2014,A22,
+21,2015,LDC Beneficiaries: China 2014,A23,
+22,2015,GSP for LDC Beneficiaries: Norway 2014,A24,
+23,2015,GSP for LDC Beneficiaries: Morocco 2014,A25,
+24,2015,GSP Beneficiaries: Canada 2014,A26,
+25,2015,GSP Beneficiaries: Japan 2014,A27,
+26,2015,GSP Beneficiaries:Liechtenstein & Switzerland 2014,A28,
+27,2015,GSP Beneficiaries: USA 2014,A29,
+28,2015,GSP Beneficiaries: Belarus & Kazakhstan 2014,A30,
+29,2015,GSP Beneficiaries: Russia 2014,A31,
+30,2015,GSP Beneficiaries: New Zealand 2014,A32,
+31,2015,GSP Beneficiaries: Norway 2014,A33,
+32,2015,GSP Beneficiaries: EU 2014,A34,
+33,2015,COMESA Free Trade Area in 2014,A35,
+34,2015,EU 28 members 2013,A36,
+35,2015,"EU 28 + GUF,SMR",A37,
+36,2015,Pacific Islands Forum,A38,
+37,2015,The European Free Trade Association (EFTA),A39,
+38,2015,AGOA beneficiaries: USA 2014,A40,
+39,2015,Caribbean Basin Economic Recovery Act: USA 2014,A41,
+40,2015,Caribbean Basin Trade Partnership Act: USA 2014,A42,
+41,2015,Switzerland and Liechtenstein,A43,
+42,2015,Costa Rica and Panama,A44,
+43,2015,Commonwealth of Independent States (CIS),A45,
+44,2015,Bangladesh and  of Laos,A46,
+45,2015,Global System of Trade Preferences (GSTP),A47,
+46,2015,Global System of Trade Preferences (GSTP) LDCs,A48,
+47,2015,Preferential tariff for 4 selected LDCs,A49,
+48,2015,Aruba,ABW,0.126907198269252
+49,2015,Afghanistan,AFG,0.330167110430464
+50,2015,Angola,AGO,0.208411716821663
+51,2015,Anguila,AIA,
+52,2015,Albania,ALB,0.227904936087385
+53,2015,Andorra,AND,0.142304492028205
+54,2015,Netherlands Antilles,ANT,
+55,2015,United Arab Emirates,ARE,0.0534025628610315
+56,2015,Argentina,ARG,0.050707167055106
+57,2015,Armenia,ARM,0.104079212754667
+58,2015,Antigua and Barbuda,ATG,0.297286636181796
+59,2015,Australia,AUS,0.159810276561418
+60,2015,Austria,AUT,0.0984429404341936
+61,2015,Azerbaijan,AZE,0.116946345526779
+62,2015,Caribbean Basin Trade Partnership Act : 2007,B01,
+63,2015,Caribbean Basin Trade Partnership Act: 2009,B02,
+64,2015,"China 2 Selected African LDCs (NER,SOM)",B03,
+65,2015,China Selected LDCs countries,B04,
+66,2015,Burundi,BDI,0.394614167041702
+67,2015,Benin,BEN,
+68,2015,Burkina Faso,BFA,0.329737058501473
+69,2015,Bangladesh,BGD,0.0722748529869788
+70,2015,Bulgaria,BGR,0.0508859861057749
+71,2015,Bahrain,BHR,0.0713393949005956
+72,2015,"Bahamas, The",BHS,0.158786840738797
+73,2015,Bosnia and Herzegovina,BIH,0.0730686529570837
+74,2015,Belarus,BLR,0.197064987399396
+75,2015,Belize,BLZ,0.120554171135682
+76,2015,Bermuda,BMU,0.37510394973181
+77,2015,Bolivia,BOL,0.149107237343159
+78,2015,Brazil,BRA,0.0728795761786315
+79,2015,Barbados,BRB,0.0837409854252373
+80,2015,Brunei,BRN,0.18519621330952
+81,2015,Bhutan,BTN,
+82,2015,Botswana,BWA,0.161057647584472
+83,2015,Andean Trade Preference Act 2009,C01,
+84,2015,ASEAN-Australia-New Zealand Free Trade Area,C02,
+85,2015,"Hong Kong, Korea Rep., Taiwan",C03,
+86,2015,Andean Trade Preference Act 2010,C04,
+87,2015,Central African Republic,CAF,0.160430113900004
+88,2015,Canada,CAN,0.517542675460778
+89,2015,Switzerland,CHE,0.0692673473458939
+90,2015,Chile,CHL,0.110427767585786
+91,2015,China,CHN,0.064502154700951
+92,2015,Cote d'Ivoire,CIV,0.0478612001489908
+93,2015,Cameroon,CMR,0.0799721956036704
+94,2015,"Congo, Rep.",COG,0.187933128197555
+95,2015,Cook Islands,COK,
+96,2015,Colombia,COL,0.150272336644313
+97,2015,Comoros,COM,0.139750156078479
+98,2015,Cape Verde,CPV,0.342789779926639
+99,2015,Costa Rica,CRI,0.136988762523154
+100,2015,Czechoslovakia,CSK,
+101,2015,Cuba,CUB,
+102,2015,Cyprus,CYP,0.0485492177945327
+103,2015,Czech Republic,CZE,0.111911626710488
+104,2015,Djibouti,DJI,
+105,2015,Dominica,DMA,
+106,2015,Dominican Republic,DOM,
+107,2015,Algeria,DZA,0.0846307049065881
+108,2015,Ecuador,ECU,0.159088492939919
+109,2015,"Egypt, Arab Rep.",EGY,0.0371733079028927
+110,2015,Eritrea,ERI,
+111,2015,Estonia,EST,0.0693771792788371
+112,2015,Ethiopia(excludes Eritrea),ETH,0.0697560956272494
+113,2015,European Union,EUN,
+114,2015,Finland,FIN,0.0490565812402423
+115,2015,Fiji,FJI,0.159191198324413
+116,2015,Faeroe Islands,FRO,
+117,2015,GSP Beneficiaries: Canada 1994,G10,
+118,2015,GSP Beneficiaries: Canada 1995,G11,
+119,2015,GSP Beneficiaries: Canada 1996,G12,
+120,2015,GSP Beneficiaries: Canada 1997,G13,
+121,2015,GSP Beneficiaries: Canada 1998,G14,
+122,2015,GSP Beneficiaries: Canada 1999,G15,
+123,2015,GSP Beneficiaries: Canada 2000,G16,
+124,2015,GSP beneficiaries:Canada 2004,G17,
+125,2015,GSP Beneficiaries: Canada 2005,G18,
+126,2015,GSP Beneficiaries: Canada 2008,G19,
+127,2015,GSP Beneficiaries: EU 1994,G20,
+128,2015,GSP Beneficiaries: EU 1995,G21,
+129,2015,GSP Beneficiaries: EU 1996,G22,
+130,2015,GSP Beneficiaries: EU 1997,G23,
+131,2015,GSP Beneficiaries: EU 1998,G24,
+132,2015,GSP Beneficiaries: EU 1999,G25,
+133,2015,GSP Beneficiaries: EU 2000,G26,
+134,2015,"GSP Beneficiaries: EU 2004
+",G27,
+135,2015,GSP Beneficiaries: Japan 1994,G30,
+136,2015,GSP Beneficiaries: Japan 1995,G31,
+137,2015,GSP Beneficiaries: Japan 1996,G32,
+138,2015,GSP Beneficiaries: Japan 1997,G33,
+139,2015,GSP Beneficiaries: Japan 1998,G34,
+140,2015,GSP Beneficiaries: Japan 1999,G35,
+141,2015,GSP Beneficiaries: Japan 2000,G36,
+142,2015,GSP Beneficiaries: Japan 2004-2005,G37,
+143,2015,GSP Beneficiaries: Japan 2005,G38,
+144,2015,GSP Beneficiaries: Japan 2006,G39,
+145,2015,GSP Beneficiaries: USA 1994,G40,
+146,2015,GSP Beneficiaries: USA 1995,G41,
+147,2015,GSP Beneficiaries: USA 1996,G42,
+148,2015,GSP Beneficiaries: USA 1997,G43,
+149,2015,GSP Beneficiaries: USA 1998,G44,
+150,2015,GSP Beneficiaries: USA 1999,G45,
+151,2015,GSP Beneficiaries: USA 2000,G46,
+152,2015,GSP Beneficiaries: USA 2002,G47,
+153,2015,GSP Beneficiaries: USA 2003,G48,
+154,2015,GSP Beneficiaries: USA 2004,G49,
+155,2015,GSP Beneficiaries: USA 2005,G50,
+156,2015,GSP Beneficiaries: Australia 1996,G51,
+157,2015,GSP Beneficiaries: Hungary 1996,G52,
+158,2015,GSP Beneficiaries: New Zealand 1996,G53,
+159,2015,GSP Beneficiaries: Norway 1996,G54,
+160,2015,GSP Beneficiaries: Poland 1994,G57,
+161,2015,GSP Beneficiaries: Poland 1995,G58,
+162,2015,GSP Beneficiaries: Poland 1996,G59,
+163,2015,GSP Beneficiaries: Russia 1996,G60,
+164,2015,GSP Beneficiaries: Switzerland 1996,G61,
+165,2015,GSP Beneficiaries: Switzerland 1997,G62,
+166,2015,GSP Beneficiaries: New Zealand 2005,G63,
+167,2015,"GSP Beneficiaries: New Zealand 2006
+",G64,
+168,2015,GSP1: Australia 2006 (Code 'DCS'),G65,
+169,2015,GSP Beneficiaries: Japan 2007,G70,
+170,2015,GSP Beneficiaries: USA 2006,G80,
+171,2015,GSP Beneficiaries: USA 2007,G81,
+172,2015,GSP Beneficiaries: USA 2009,G82,
+173,2015,GSP Beneficiaries: USA 2010,G83,
+174,2015,Gabon,GAB,
+175,2015,Gaza Strip,GAZ,
+176,2015,United Kingdom,GBR,0.0484367563563963
+177,2015,Georgia,GEO,0.0530784783430955
+178,2015,Ghana,GHA,0.112368863050962
+179,2015,Guinea,GIN,0.102867543382122
+180,2015,"Gambia, The",GMB,0.255041906769061
+181,2015,Guinea-Bissau,GNB,
+182,2015,Equatorial Guinea,GNQ,
+183,2015,Grenada,GRD,0.0780885722161148
+184,2015,Greenland,GRL,0.295210680655444
+185,2015,Guatemala,GTM,0.177189494042327
+186,2015,French Guiana,GUF,
+187,2015,Guyana,GUY,0.160523512195758
+188,2015,European Community 12  (-1994),H01,
+189,2015,EFTA 6 (-1994),H02,
+190,2015,"Hong Kong, China",HKG,0.0548437546508222
+191,2015,Honduras,HND,0.357761820254946
+192,2015,Croatia,HRV,0.0620264407369861
+193,2015,Haiti,HTI,
+194,2015,Hungary,HUN,0.0889913032511151
+195,2015,Indonesia,IDN,0.0574542713391934
+196,2015,India,IND,0.0471106027408563
+197,2015,"Iran, Islamic Rep.",IRN,0.202986583758268
+198,2015,Iraq,IRQ,
+199,2015,Iceland,ISL,0.0967688078364176
+200,2015,Israel,ISR,0.166188228101779
+201,2015,Preferential tariff for CARICOM MDC countries,J72,
+202,2015,Jamaica,JAM,0.108287749887115
+203,2015,Jordan,JOR,0.0851719782264344
+204,2015,Japan,JPN,0.0876008602964494
+205,2015,Preferential tariff for PICTA countries,K31,
+206,2015,Customs Union (Russia-Belarus-Kazakhstan),K51,
+207,2015,Kazakhstan,KAZ,0.0711519245620767
+208,2015,Kenya,KEN,0.0443295621297637
+209,2015,Kyrgyz Republic,KGZ,0.221711108454572
+210,2015,Cambodia,KHM,0.0797910594431443
+211,2015,St. Kitts and Nevis,KNA,0.368674688760207
+212,2015,"Korea, Rep.",KOR,0.125221179812328
+213,2015,Kuwait,KWT,0.0765020412161145
+214,2015,GSP for LDC Beneficiaries: Beneficiaries: Canada 1,L10,
+215,2015,GSP for LDC Beneficiaries: Beneficiaries: Canada 1,L11,
+216,2015,GSP for LDC Beneficiaries: Beneficiaries: Canada 1,L14,
+217,2015,GSP for LDC Beneficiaries: Beneficiaries: Canada 1,L15,
+218,2015,GSP for LDC Beneficiaries: Beneficiaries: Canada 2,L16,
+219,2015,GSP for LDC Beneficiaries: Canada 2001,L17,
+220,2015,GSP for LDC Beneficiaries: Canada 2008,L19,
+221,2015,GSP for LDC Beneficiaries: Beneficiaries: EU 1994,L20,
+222,2015,GSP for LDC Beneficiaries: Beneficiaries: EU 1995,L21,
+223,2015,GSP for LDC Beneficiaries: Beneficiaries: EU 1996,L22,
+224,2015,GSP for LDC Beneficiaries: Beneficiaries: EU 1997,L23,
+225,2015,GSP for LDC Beneficiaries: Beneficiaries: EU 1998,L24,
+226,2015,GSP for LDC Beneficiaries: Beneficiaries: EU 1999,L25,
+227,2015,GSP for LDC Beneficiaries: Beneficiaries: EU 2000,L26,
+228,2015,GSP for LDC Beneficiaries: Beneficiaries: EU 2001,L27,
+229,2015,"GSP LDC Beneficiaries: Beneficiaries: EU 2004
+",L28,
+230,2015,GSP for LDC Beneficiaries: Beneficiaries: Japan 19,L30,
+231,2015,GSP for LDC Beneficiaries: Beneficiaries: Japan 19,L31,
+232,2015,GSP for LDC Beneficiaries: Beneficiaries: Japan 19,L32,
+233,2015,GSP for LDC Beneficiaries: Beneficiaries: Japan 19,L33,
+234,2015,GSP for LDC Beneficiaries: Japan 1998,L34,
+235,2015,GSP for LDC Beneficiaries: Japan 1999,L35,
+236,2015,GSP for LDC Beneficiaries: Japan 2000,L36,
+237,2015,GSP for LDC Beneficiaries: Japan 2004-2005,L37,
+238,2015,LDC Beneficiaries,L38,
+239,2015,GSP for LDC Beneficiaries: Japan 2007,L39,
+240,2015,GSP for LDC Beneficiaries: USA 1997,L43,
+241,2015,GSP for LDC Beneficiaries: USA 1998,L44,
+242,2015,GSP for LDC Beneficiaries: USA 1999,L45,
+243,2015,GSP for LDC Beneficiaries: USA 2000,L46,
+244,2015,GSP for LDC Beneficiaries: USA 2002,L47,
+245,2015,GSP for LDC Beneficiaries: USA 2003,L48,
+246,2015,LDC 51 Countries,L50,
+247,2015,GSP for LDC Beneficiaries: Australia 1996,L51,
+248,2015,GSP for LDC Beneficiaries: Hungary 1996,L52,
+249,2015,GSP for LDC Beneficiaries: New Zealand 1996,L53,
+250,2015,GSP for LDC Beneficiaries: Norway 1996,L54,
+251,2015,GSP for LDC Beneficiaries: Norway 1998,L56,
+252,2015,GSP for LDC Beneficiaries: Poland 1994,L57,
+253,2015,GSP for LDC Beneficiaries: Poland 1995,L58,
+254,2015,GSP for LDC Beneficiaries: Poland 1996,L59,
+255,2015,GSP for LDC Beneficiaries: Russia 1996,L60,
+256,2015,GSP for LDC Beneficiaries: Switzerland 1995,L61,
+257,2015,GSP for LDC Beneficiaries: Switzerland 1996,L62,
+258,2015,GSP for LDC Beneficiaries: Switzerland 1997,L63,
+259,2015,LDC Beneficiaries:Turkey 1999,L64,
+260,2015,Preferential tariff for African LDC countries,L69,
+261,2015,GSP2: Australia 2006 (Code 'DC'),L70,
+262,2015,GSP for LDC: Australia 2006 (Code 'LDC'),L71,
+263,2015,Switzerland LDC GSP beneficiary countries in 2009,L72,
+264,2015,LDC 51 Countries,L77,
+265,2015,Preferential duty for 27 African LDCs:China 2008,L79,
+266,2015,Pref for 5 Asian and Pacific LDCs: China 2008,L80,
+267,2015,Preferential duty for 3 African LDCs:China 2008,L81,
+268,2015,Special Preferential duty for 31 African Countries,L82,
+269,2015,Special Preferential for 6 Asia Pacific Countries,L83,
+270,2015,Preferential tariff for EPA countries,L85,
+271,2015,AGOA eligible for certain textiles and apparel,L87,
+272,2015,LDC Beneficiaries in 2009,L90,
+273,2015,GSP for LDC Beneficiaries: USA 2010,L91,
+274,2015,Lao PDR,LAO,0.26255399388845
+275,2015,Lebanon,LBN,0.0462169502244413
+276,2015,Liberia,LBR,
+277,2015,Libya,LBY,
+278,2015,St. Lucia,LCA,0.838869672291888
+279,2015,Liechtenstein,LIE,
+280,2015,Sri Lanka,LKA,
+281,2015,Lesotho,LSO,0.282229655538913
+282,2015,Lithuania,LTU,0.0455404021458537
+283,2015,Latvia,LVA,0.0688712161698152
+284,2015,Preferential tariff for selected GSTP countries,M01,
+285,2015,EU 27 members,M02,
+286,2015,Asia-Pacific Trade Agreement (APTA),M03,
+287,2015,SIECA member states,M04,
+288,2015,COMESA Free Trade Area in 2007,M05,
+289,2015,Countries members of the Indian Ocean Commission (,M06,
+290,2015,COMESA countries not members of the FTA in 2007,M07,
+291,2015,AGADIR countries,M08,
+292,2015,Switzerland LDC GSP beneficiary countries in 2008,M10,
+293,2015,Switzerland GSP beneficiary  countries in 2008,M11,
+294,2015,COMESA Free Trade Area 2008,M12,
+295,2015,EU countries (32 territories):Switzerland 2009,M13,
+296,2015,Switzerland GSP beneficiary  countries in 2009,M14,
+297,2015,Preferential tariff for APTA(LDC)countries,M15,
+298,2015,COMESA countries not members of the FTA in 2009,M16,
+299,2015,Macao,MAC,0.363116858125777
+300,2015,Morocco,MAR,0.0827831231800352
+301,2015,Moldova,MDA,0.0834298046712843
+302,2015,Madagascar,MDG,0.0716569073830141
+303,2015,Maldives,MDV,0.0765346632060163
+304,2015,Mexico,MEX,0.550734302974141
+305,2015,"Macedonia, FYR",MKD,0.163702657474463
+306,2015,Mali,MLI,
+307,2015,Malta,MLT,0.0600584381241987
+308,2015,Myanmar,MMR,0.240511157266578
+309,2015,Mongolia,MNG,0.703740226457317
+310,2015,Montenegro,MNT,0.0663079190719221
+311,2015,Mozambique,MOZ,0.065168476485849
+312,2015,Mauritania,MRT,0.130951625683443
+313,2015,Montserrat,MSR,0.276654516696037
+314,2015,Mauritius,MUS,0.0683620408100433
+315,2015,Malawi,MWI,0.0522396466151041
+316,2015,Malaysia,MYS,0.0800429841719423
+317,2015,Mayotte,MYT,
+318,2015,Developing Countries,N01,
+319,2015,European Union,N04,
+320,2015,European Free Trade Association,N05,
+321,2015,"ACP (Africa, Caribbean and Pacific)",N08,
+322,2015,Least Developed Countries,N09,
+323,2015,Maghreb Countries,N12,
+324,2015,UDEAC,N13,
+325,2015,ECOWAS,N14,
+326,2015,COMESA,N16,
+327,2015,"Bosnia, Croatia and Macedonia",N19,
+328,2015,TAG,N20,
+329,2015,AndeanGroup and Central American Common Market,N22,
+330,2015,COMESA,N23,
+331,2015,East African Community,N24,
+332,2015,COMESA Free Trade Area in 2003,N25,
+333,2015,SACU (Southern African Customs Union),N26,
+334,2015,COMESA Free Trade Area 2005,N27,
+335,2015,COMESA Free Trade Area 2006,N28,
+336,2015,Peru and Panama,N29,
+337,2015,LAIA (ALADI),N32,
+338,2015,Andean Pact countries,N33,
+339,2015,C. American Common Market,N34,
+340,2015,Caribbean Community,N35,
+341,2015,MERCOSUR,N37,
+342,2015,African Growth and Opportunity Act (AGOA) Preferen,N39,
+343,2015,ASEAN,N44,
+344,2015,Bangkok Agreement,N45,
+345,2015,SAARC,N47,
+346,2015,"Bhutan, Maldives, Nepal",N48,
+347,2015,AGOA beneficiaries: USA 2002,N49,
+348,2015,Caribbean Basin Trade Partnership Act : 2002      ,N51,
+349,2015,ASEAN,N52,
+350,2015,AGOA beneficiaries: USA 2004,N54,
+351,2015,EU beneficiaries:Switzerland 2004,N55,
+352,2015,EFTA beneficiaries:Switzerland 2004,N56,
+353,2015,GSP Beneficiaries: Switzerland 2004,N57,
+354,2015,SADC,N58,
+355,2015,CEMAC Member States,N59,
+356,2015,AGOA beneficiaries: USA 2005,N60,
+357,2015,Gulf Cooperation Council (GCC) countries,N61,
+358,2015,League of Arab States,N62,
+359,2015,EU25,N63,
+360,2015,Countries of the Protocol of 16,N64,
+361,2015,GSP Beneficiaries: Turkey 2005,N65,
+362,2015,"Caribbean Community
+ (CARICOM countries)",N66,
+363,2015,Caribbean Community - CARICOM LDC members,N67,
+364,2015,Caribbean Community - MDC members,N68,
+365,2015,UEMOA,N69,
+366,2015,Forum Islands Countries,N72,
+367,2015,Caribbean Basin Trade Partnership Act : 2006,N73,
+368,2015,SADC countries excluding South Africa,N74,
+369,2015,Preferential tariff for CAFTA countries,N75,
+370,2015,AGOA beneficiaries: USA 2006,N78,
+371,2015,Preferential tariff for MSG countries,N79,
+372,2015,CIS Countries,N80,
+373,2015,GSTP 48 Signatories,N82,
+374,2015,GSTP - LDCs,N85,
+375,2015,Forum Islands Countries,N86,
+376,2015,"Hong Kong, Korea Rep., Singapore, Taiwan",N87,
+377,2015,British Preferential Tariff for Canada,N88,
+378,2015,"Czech Rep.,Slovakia",N89,
+379,2015,Commonwealth Caribbean Countries,N90,
+380,2015,"Botswana, Namibia",N91,
+381,2015,"Australia, New Zealand",N92,
+382,2015,"Iceland, Liechtensten, Norway",N93,
+383,2015,"Estonia, Latvia, Lithuania",N94,
+384,2015,"Iran, Pakistan, Turkey",N95,
+385,2015,Trade Negotiations among Developing Countries (TND,N96,
+386,2015,Caribbean Economic Recovery Act,N97,
+387,2015,Namibia,NAM,0.119728056092428
+388,2015,Niger,NER,0.333210164599865
+389,2015,Nigeria,NGA,0.0714834681836625
+390,2015,Nicaragua,NIC,0.414898659536642
+391,2015,Norway,NOR,0.0786541990765795
+392,2015,Nepal,NPL,0.373143606580495
+393,2015,Nauru,NRU,
+394,2015,New Zealand,NZL,0.0797735806780854
+395,2015,AGOA beneficiaries: USA 2008,O02,
+396,2015,AGOA beneficiaries: USA 2009,O03,
+397,2015,AGOA beneficiaries: USA 2010,O04,
+398,2015,Oman,OMN,0.23370409908831
+399,2015,AGOA eligible countries for textiles and apparel,OT3,
+400,2015,EU Special incentive arrangement: 2006-2008,P00,
+401,2015,Overseas countries and Territories,P01,
+402,2015,Countries fighting drug,P02,
+403,2015,Non-MFN Countries: Japan 2006,P15,
+404,2015,East African Community (EAC),P21,
+405,2015,North American Free Trade Agreement (NAFTA),P22,
+406,2015,Preferential tariff for CARIFORUM countries,P23,
+407,2015,GSP Beneficiaries: EU 2010,P24,
+408,2015,"Botswana, Namibia, Swaziland",P25,
+409,2015,Preferential tariff for CAFTA countries 2011,P26,
+410,2015,GSP Beneficiaries: USA 2011,P27,
+411,2015,"CARIFORUM - EU EPA: (CARICOM, DOM, EU) ",P29,
+412,2015,Pakistan,PAK,
+413,2015,Panama,PAN,0.0479121056731332
+414,2015,Peru,PER,0.0924121977152668
+415,2015,Philippines,PHL,0.109016816451521
+416,2015,Palau,PLW,0.333136265373506
+417,2015,Papua New Guinea,PNG,
+418,2015,Poland,POL,0.0921278549043726
+419,2015,"Korea, Dem. Rep.",PRK,
+420,2015,Portugal,PRT,0.0825966120237215
+421,2015,Paraguay,PRY,0.132467627092338
+422,2015,Occ.Pal.Terr,PSE,0.225472307206916
+423,2015,French Polynesia,PYF,0.243368688248197
+424,2015,Preferential tariff for GSTP R. of Korea 2009,Q02,
+425,2015,Preferential tariff for SAARC 2009,Q06,
+426,2015,Qatar,QAT,0.114058961690455
+427,2015,GSP Beneficiaries:Kazakhstan 2010,R30,
+428,2015,LDC Beneficiaries:Kazakhstan 2010,R50,
+429,2015,Romania,ROM,0.0652139713228926
+430,2015,Russian Federation,RUS,0.0350016075494905
+431,2015,Rwanda,RWA,0.0862242218156524
+432,2015,Saudi Arabia,SAU,0.0675556140139924
+433,2015,Fm Sudan,SDN,
+434,2015,Senegal,SEN,0.0647489465918148
+435,2015,"Serbia, FR(Serbia/Montenegro)",SER,0.0505836040685037
+436,2015,Singapore,SGP,0.0631353495577574
+437,2015,Solomon Islands,SLB,0.422033883748006
+438,2015,Sierra Leone,SLE,0.131637751320078
+439,2015,El Salvador,SLV,0.272726370499964
+440,2015,San Marino,SMR,
+441,2015,Sao Tome and Principe,STP,0.11112289087418
+442,2015,Sudan,SUD,0.199016832757579
+443,2015,Suriname,SUR,0.116228488432751
+444,2015,Slovak Republic,SVK,0.0809402868117509
+445,2015,Slovenia,SVN,0.0770394477603185
+446,2015,Sweden,SWE,0.0427962398462251
+447,2015,Swaziland,SWZ,0.325267247640533
+448,2015,Seychelles,SYC,0.100470032778146
+449,2015,Syrian Arab Republic,SYR,
+450,2015,Trans-Pacific Strategic Ec. Prtnrshp. Agrmnt.,T00,
+451,2015,Chad,TCD,
+452,2015,Togo,TGO,0.072276206586454
+453,2015,Thailand,THA,0.0569697773534449
+454,2015,Tajikistan,TJK,
+455,2015,Turkmenistan,TKM,
+456,2015,East Timor,TMP,
+457,2015,Tonga,TON,
+458,2015,Trinidad and Tobago,TTO,0.150377618793428
+459,2015,Tunisia,TUN,0.145563449014659
+460,2015,Turkey,TUR,0.0349806843798136
+461,2015,Tuvalu,TUV,
+462,2015,"Taiwan, China",TWN,
+463,2015,Tanzania,TZA,0.0926207326726223
+464,2015,Uganda,UGA,0.0540476898117724
+465,2015,Ukraine,UKR,0.0419986803434876
+466,2015,Unspecified,UNS,
+467,2015,Uruguay,URY,0.0918506018942884
+468,2015,United States,USA,0.0603752367911874
+469,2015,Uzbekistan,UZB,
+470,2015,St. Vincent and the Grenadines,VCT,0.177376282988628
+471,2015,Venezuela,VEN,
+472,2015,Vietnam,VNM,0.0768181078304704
+473,2015,Vanuatu,VUT,
+474,2015,Samoa,WSM,0.23072534462228
+475,2015,Yemen,YEM,0.242507321818965
+476,2015,"Yugoslavia,FR(Serbia/Montenegr",YUG,
+477,2015,South Africa,ZAF,0.0840219165918208
+478,2015,"Congo, Dem. Rep.",ZAR,0.221961821659719
+479,2015,Zambia,ZMB,0.112189137228415
+480,2015,Zimbabwe,ZWE,0.126375886091788

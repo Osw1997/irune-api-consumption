@@ -1,0 +1,486 @@
+,Year,Country,iso3code,hhi
+0,2017,Selected Developing Countries for Switzerland,A01,
+1,2017,Caribbean Economic Recovery Act: USA 2007,A02,
+2,2017,Caribbean Economic Recovery Act: USA 2009,A03,
+3,2017,Preferential tariff for selected african countries,A04,
+4,2017,Norway tariff for lower income GSP countries,A05,
+5,2017,Preferential tariff for COMESA FTA,A07,
+6,2017,Preferential tariff for COMESA Non-FTA,A08,
+7,2017,(SAARC) Preferential for Sri Lanka and Pakistan,A09,
+8,2017,"CAFTA-DR-USA:CRI, DOM, SLV, GTM, HND, USA",A10,
+9,2017,Preferential tariff for EU + EFTA,A11,
+10,2017,(SAARC) Preferential for Sri Lanka and India,A12,
+11,2017,(AANZFTA) Preferential for AUS and NZL,A13,
+12,2017,(COMESA) Preferential for Uganda and Eritrea,A14,
+13,2017,Egypt (GSTP) Countries ,A15,
+14,2017,Egypt (GSTP) Selected LDCs Countries,A16,
+15,2017,LDC Beneficiaries in 2014,A17,
+16,2017,LDC Beneficiaries in 2014,A18,
+17,2017,Switzerland & Liechtenstein LDC beneficiary 2014,A19,
+18,2017,GSP for LDC Beneficiaries: Japan 2014,A20,
+19,2017,LDC Beneficiaries: Tajikistan 2014,A21,
+20,2017,GSP for LDC Beneficiaries: USA 2014,A22,
+21,2017,LDC Beneficiaries: China 2014,A23,
+22,2017,GSP for LDC Beneficiaries: Norway 2014,A24,
+23,2017,GSP for LDC Beneficiaries: Morocco 2014,A25,
+24,2017,GSP Beneficiaries: Canada 2014,A26,
+25,2017,GSP Beneficiaries: Japan 2014,A27,
+26,2017,GSP Beneficiaries:Liechtenstein & Switzerland 2014,A28,
+27,2017,GSP Beneficiaries: USA 2014,A29,
+28,2017,GSP Beneficiaries: Belarus & Kazakhstan 2014,A30,
+29,2017,GSP Beneficiaries: Russia 2014,A31,
+30,2017,GSP Beneficiaries: New Zealand 2014,A32,
+31,2017,GSP Beneficiaries: Norway 2014,A33,
+32,2017,GSP Beneficiaries: EU 2014,A34,
+33,2017,COMESA Free Trade Area in 2014,A35,
+34,2017,EU 28 members 2013,A36,
+35,2017,"EU 28 + GUF,SMR",A37,
+36,2017,Pacific Islands Forum,A38,
+37,2017,The European Free Trade Association (EFTA),A39,
+38,2017,AGOA beneficiaries: USA 2014,A40,
+39,2017,Caribbean Basin Economic Recovery Act: USA 2014,A41,
+40,2017,Caribbean Basin Trade Partnership Act: USA 2014,A42,
+41,2017,Switzerland and Liechtenstein,A43,
+42,2017,Costa Rica and Panama,A44,
+43,2017,Commonwealth of Independent States (CIS),A45,
+44,2017,Bangladesh and  of Laos,A46,
+45,2017,Global System of Trade Preferences (GSTP),A47,
+46,2017,Global System of Trade Preferences (GSTP) LDCs,A48,
+47,2017,Preferential tariff for 4 selected LDCs,A49,
+48,2017,Aruba,ABW,0.117357172183112
+49,2017,Afghanistan,AFG,0.308150857883939
+50,2017,Angola,AGO,0.335445232512003
+51,2017,Anguila,AIA,
+52,2017,Albania,ALB,0.236453871024894
+53,2017,Andorra,AND,0.122459873927896
+54,2017,Netherlands Antilles,ANT,
+55,2017,United Arab Emirates,ARE,0.0471285887374995
+56,2017,Argentina,ARG,0.0453824457406755
+57,2017,Armenia,ARM,0.134952849174919
+58,2017,Antigua and Barbuda,ATG,0.287156873895907
+59,2017,Australia,AUS,0.167903473432149
+60,2017,Austria,AUT,0.100781118610303
+61,2017,Azerbaijan,AZE,0.110932154950625
+62,2017,Caribbean Basin Trade Partnership Act : 2007,B01,
+63,2017,Caribbean Basin Trade Partnership Act: 2009,B02,
+64,2017,"China 2 Selected African LDCs (NER,SOM)",B03,
+65,2017,China Selected LDCs countries,B04,
+66,2017,Burundi,BDI,0.247161825797993
+67,2017,Benin,BEN,0.154694507918164
+68,2017,Burkina Faso,BFA,0.328958558165587
+69,2017,Bangladesh,BGD,
+70,2017,Bulgaria,BGR,0.0523308026227877
+71,2017,Bahrain,BHR,0.081974245661077
+72,2017,"Bahamas, The",BHS,0.168063171796041
+73,2017,Bosnia and Herzegovina,BIH,0.0721812462670586
+74,2017,Belarus,BLR,0.309042546703799
+75,2017,Belize,BLZ,0.279591237397352
+76,2017,Bermuda,BMU,0.260069948723565
+77,2017,Bolivia,BOL,0.085581907279431
+78,2017,Brazil,BRA,0.0886095945725801
+79,2017,Barbados,BRB,0.0477011478131647
+80,2017,Brunei,BRN,0.150554390507052
+81,2017,Bhutan,BTN,
+82,2017,Botswana,BWA,0.152412340827868
+83,2017,Andean Trade Preference Act 2009,C01,
+84,2017,ASEAN-Australia-New Zealand Free Trade Area,C02,
+85,2017,"Hong Kong, Korea Rep., Taiwan",C03,
+86,2017,Andean Trade Preference Act 2010,C04,
+87,2017,Central African Republic,CAF,0.18039135331899
+88,2017,Canada,CAN,0.508160779727927
+89,2017,Switzerland,CHE,0.0664534358897843
+90,2017,Chile,CHL,0.125036366571587
+91,2017,China,CHN,0.0607238548968277
+92,2017,Cote d'Ivoire,CIV,0.0520918771438811
+93,2017,Cameroon,CMR,0.0677473761451151
+94,2017,"Congo, Rep.",COG,0.320808045616773
+95,2017,Cook Islands,COK,
+96,2017,Colombia,COL,0.132048543823497
+97,2017,Comoros,COM,0.158253624283265
+98,2017,Cape Verde,CPV,0.282350753747363
+99,2017,Costa Rica,CRI,0.12817234051178
+100,2017,Czechoslovakia,CSK,
+101,2017,Cuba,CUB,
+102,2017,Cyprus,CYP,0.0425859709668907
+103,2017,Czech Republic,CZE,0.114551628412841
+104,2017,Djibouti,DJI,
+105,2017,Dominica,DMA,
+106,2017,Dominican Republic,DOM,0.288517241720766
+107,2017,Algeria,DZA,0.0833733762825506
+108,2017,Ecuador,ECU,0.128089442738997
+109,2017,"Egypt, Arab Rep.",EGY,0.0329167847198848
+110,2017,Eritrea,ERI,
+111,2017,Estonia,EST,0.0613736113106886
+112,2017,Ethiopia(excludes Eritrea),ETH,0.0621598864220176
+113,2017,European Union,EUN,
+114,2017,Finland,FIN,0.0475576805530662
+115,2017,Fiji,FJI,0.170237484874362
+116,2017,Faeroe Islands,FRO,
+117,2017,GSP Beneficiaries: Canada 1994,G10,
+118,2017,GSP Beneficiaries: Canada 1995,G11,
+119,2017,GSP Beneficiaries: Canada 1996,G12,
+120,2017,GSP Beneficiaries: Canada 1997,G13,
+121,2017,GSP Beneficiaries: Canada 1998,G14,
+122,2017,GSP Beneficiaries: Canada 1999,G15,
+123,2017,GSP Beneficiaries: Canada 2000,G16,
+124,2017,GSP beneficiaries:Canada 2004,G17,
+125,2017,GSP Beneficiaries: Canada 2005,G18,
+126,2017,GSP Beneficiaries: Canada 2008,G19,
+127,2017,GSP Beneficiaries: EU 1994,G20,
+128,2017,GSP Beneficiaries: EU 1995,G21,
+129,2017,GSP Beneficiaries: EU 1996,G22,
+130,2017,GSP Beneficiaries: EU 1997,G23,
+131,2017,GSP Beneficiaries: EU 1998,G24,
+132,2017,GSP Beneficiaries: EU 1999,G25,
+133,2017,GSP Beneficiaries: EU 2000,G26,
+134,2017,"GSP Beneficiaries: EU 2004
+",G27,
+135,2017,GSP Beneficiaries: Japan 1994,G30,
+136,2017,GSP Beneficiaries: Japan 1995,G31,
+137,2017,GSP Beneficiaries: Japan 1996,G32,
+138,2017,GSP Beneficiaries: Japan 1997,G33,
+139,2017,GSP Beneficiaries: Japan 1998,G34,
+140,2017,GSP Beneficiaries: Japan 1999,G35,
+141,2017,GSP Beneficiaries: Japan 2000,G36,
+142,2017,GSP Beneficiaries: Japan 2004-2005,G37,
+143,2017,GSP Beneficiaries: Japan 2005,G38,
+144,2017,GSP Beneficiaries: Japan 2006,G39,
+145,2017,GSP Beneficiaries: USA 1994,G40,
+146,2017,GSP Beneficiaries: USA 1995,G41,
+147,2017,GSP Beneficiaries: USA 1996,G42,
+148,2017,GSP Beneficiaries: USA 1997,G43,
+149,2017,GSP Beneficiaries: USA 1998,G44,
+150,2017,GSP Beneficiaries: USA 1999,G45,
+151,2017,GSP Beneficiaries: USA 2000,G46,
+152,2017,GSP Beneficiaries: USA 2002,G47,
+153,2017,GSP Beneficiaries: USA 2003,G48,
+154,2017,GSP Beneficiaries: USA 2004,G49,
+155,2017,GSP Beneficiaries: USA 2005,G50,
+156,2017,GSP Beneficiaries: Australia 1996,G51,
+157,2017,GSP Beneficiaries: Hungary 1996,G52,
+158,2017,GSP Beneficiaries: New Zealand 1996,G53,
+159,2017,GSP Beneficiaries: Norway 1996,G54,
+160,2017,GSP Beneficiaries: Poland 1994,G57,
+161,2017,GSP Beneficiaries: Poland 1995,G58,
+162,2017,GSP Beneficiaries: Poland 1996,G59,
+163,2017,GSP Beneficiaries: Russia 1996,G60,
+164,2017,GSP Beneficiaries: Switzerland 1996,G61,
+165,2017,GSP Beneficiaries: Switzerland 1997,G62,
+166,2017,GSP Beneficiaries: New Zealand 2005,G63,
+167,2017,"GSP Beneficiaries: New Zealand 2006
+",G64,
+168,2017,GSP1: Australia 2006 (Code 'DCS'),G65,
+169,2017,GSP Beneficiaries: Japan 2007,G70,
+170,2017,GSP Beneficiaries: USA 2006,G80,
+171,2017,GSP Beneficiaries: USA 2007,G81,
+172,2017,GSP Beneficiaries: USA 2009,G82,
+173,2017,GSP Beneficiaries: USA 2010,G83,
+174,2017,Gabon,GAB,
+175,2017,Gaza Strip,GAZ,
+176,2017,United Kingdom,GBR,0.0463324924552648
+177,2017,Georgia,GEO,0.0636971993872854
+178,2017,Ghana,GHA,0.0978426111295524
+179,2017,Guinea,GIN,
+180,2017,"Gambia, The",GMB,0.301878304209845
+181,2017,Guinea-Bissau,GNB,
+182,2017,Equatorial Guinea,GNQ,
+183,2017,Grenada,GRD,0.11443449794174
+184,2017,Greenland,GRL,0.312038257190228
+185,2017,Guatemala,GTM,0.159144752878244
+186,2017,French Guiana,GUF,
+187,2017,Guyana,GUY,0.156515247485617
+188,2017,European Community 12  (-1994),H01,
+189,2017,EFTA 6 (-1994),H02,
+190,2017,"Hong Kong, China",HKG,0.0554077310017982
+191,2017,Honduras,HND,0.291588507620522
+192,2017,Croatia,HRV,0.0604956550301897
+193,2017,Haiti,HTI,
+194,2017,Hungary,HUN,0.0899016725132076
+195,2017,Indonesia,IDN,0.0611290810434568
+196,2017,India,IND,0.0473928909546193
+197,2017,"Iran, Islamic Rep.",IRN,0.124926003129717
+198,2017,Iraq,IRQ,
+199,2017,Iceland,ISL,0.0860941899074606
+200,2017,Israel,ISR,0.146183824759101
+201,2017,Preferential tariff for CARICOM MDC countries,J72,
+202,2017,Jamaica,JAM,0.121858601385558
+203,2017,Jordan,JOR,0.0982398966226384
+204,2017,Japan,JPN,0.0881642416013211
+205,2017,Preferential tariff for PICTA countries,K31,
+206,2017,Customs Union (Russia-Belarus-Kazakhstan),K51,
+207,2017,Kazakhstan,KAZ,0.0609584965270094
+208,2017,Kenya,KEN,0.0458407067702052
+209,2017,Kyrgyz Republic,KGZ,0.120733391914802
+210,2017,Cambodia,KHM,0.0650340510117055
+211,2017,St. Kitts and Nevis,KNA,0.377586680093284
+212,2017,"Korea, Rep.",KOR,0.109701231567613
+213,2017,Kuwait,KWT,0.0883580481938695
+214,2017,GSP for LDC Beneficiaries: Beneficiaries: Canada 1,L10,
+215,2017,GSP for LDC Beneficiaries: Beneficiaries: Canada 1,L11,
+216,2017,GSP for LDC Beneficiaries: Beneficiaries: Canada 1,L14,
+217,2017,GSP for LDC Beneficiaries: Beneficiaries: Canada 1,L15,
+218,2017,GSP for LDC Beneficiaries: Beneficiaries: Canada 2,L16,
+219,2017,GSP for LDC Beneficiaries: Canada 2001,L17,
+220,2017,GSP for LDC Beneficiaries: Canada 2008,L19,
+221,2017,GSP for LDC Beneficiaries: Beneficiaries: EU 1994,L20,
+222,2017,GSP for LDC Beneficiaries: Beneficiaries: EU 1995,L21,
+223,2017,GSP for LDC Beneficiaries: Beneficiaries: EU 1996,L22,
+224,2017,GSP for LDC Beneficiaries: Beneficiaries: EU 1997,L23,
+225,2017,GSP for LDC Beneficiaries: Beneficiaries: EU 1998,L24,
+226,2017,GSP for LDC Beneficiaries: Beneficiaries: EU 1999,L25,
+227,2017,GSP for LDC Beneficiaries: Beneficiaries: EU 2000,L26,
+228,2017,GSP for LDC Beneficiaries: Beneficiaries: EU 2001,L27,
+229,2017,"GSP LDC Beneficiaries: Beneficiaries: EU 2004
+",L28,
+230,2017,GSP for LDC Beneficiaries: Beneficiaries: Japan 19,L30,
+231,2017,GSP for LDC Beneficiaries: Beneficiaries: Japan 19,L31,
+232,2017,GSP for LDC Beneficiaries: Beneficiaries: Japan 19,L32,
+233,2017,GSP for LDC Beneficiaries: Beneficiaries: Japan 19,L33,
+234,2017,GSP for LDC Beneficiaries: Japan 1998,L34,
+235,2017,GSP for LDC Beneficiaries: Japan 1999,L35,
+236,2017,GSP for LDC Beneficiaries: Japan 2000,L36,
+237,2017,GSP for LDC Beneficiaries: Japan 2004-2005,L37,
+238,2017,LDC Beneficiaries,L38,
+239,2017,GSP for LDC Beneficiaries: Japan 2007,L39,
+240,2017,GSP for LDC Beneficiaries: USA 1997,L43,
+241,2017,GSP for LDC Beneficiaries: USA 1998,L44,
+242,2017,GSP for LDC Beneficiaries: USA 1999,L45,
+243,2017,GSP for LDC Beneficiaries: USA 2000,L46,
+244,2017,GSP for LDC Beneficiaries: USA 2002,L47,
+245,2017,GSP for LDC Beneficiaries: USA 2003,L48,
+246,2017,LDC 51 Countries,L50,
+247,2017,GSP for LDC Beneficiaries: Australia 1996,L51,
+248,2017,GSP for LDC Beneficiaries: Hungary 1996,L52,
+249,2017,GSP for LDC Beneficiaries: New Zealand 1996,L53,
+250,2017,GSP for LDC Beneficiaries: Norway 1996,L54,
+251,2017,GSP for LDC Beneficiaries: Norway 1998,L56,
+252,2017,GSP for LDC Beneficiaries: Poland 1994,L57,
+253,2017,GSP for LDC Beneficiaries: Poland 1995,L58,
+254,2017,GSP for LDC Beneficiaries: Poland 1996,L59,
+255,2017,GSP for LDC Beneficiaries: Russia 1996,L60,
+256,2017,GSP for LDC Beneficiaries: Switzerland 1995,L61,
+257,2017,GSP for LDC Beneficiaries: Switzerland 1996,L62,
+258,2017,GSP for LDC Beneficiaries: Switzerland 1997,L63,
+259,2017,LDC Beneficiaries:Turkey 1999,L64,
+260,2017,Preferential tariff for African LDC countries,L69,
+261,2017,GSP2: Australia 2006 (Code 'DC'),L70,
+262,2017,GSP for LDC: Australia 2006 (Code 'LDC'),L71,
+263,2017,Switzerland LDC GSP beneficiary countries in 2009,L72,
+264,2017,LDC 51 Countries,L77,
+265,2017,Preferential duty for 27 African LDCs:China 2008,L79,
+266,2017,Pref for 5 Asian and Pacific LDCs: China 2008,L80,
+267,2017,Preferential duty for 3 African LDCs:China 2008,L81,
+268,2017,Special Preferential duty for 31 African Countries,L82,
+269,2017,Special Preferential for 6 Asia Pacific Countries,L83,
+270,2017,Preferential tariff for EPA countries,L85,
+271,2017,AGOA eligible for certain textiles and apparel,L87,
+272,2017,LDC Beneficiaries in 2009,L90,
+273,2017,GSP for LDC Beneficiaries: USA 2010,L91,
+274,2017,Lao PDR,LAO,0.287125774310076
+275,2017,Lebanon,LBN,0.0557074488033118
+276,2017,Liberia,LBR,
+277,2017,Libya,LBY,0.0845640355350584
+278,2017,St. Lucia,LCA,0.878964698590576
+279,2017,Liechtenstein,LIE,
+280,2017,Sri Lanka,LKA,0.086275104767582
+281,2017,Lesotho,LSO,0.22605993510982
+282,2017,Lithuania,LTU,0.0432519871808026
+283,2017,Latvia,LVA,0.0576169729651784
+284,2017,Preferential tariff for selected GSTP countries,M01,
+285,2017,EU 27 members,M02,
+286,2017,Asia-Pacific Trade Agreement (APTA),M03,
+287,2017,SIECA member states,M04,
+288,2017,COMESA Free Trade Area in 2007,M05,
+289,2017,Countries members of the Indian Ocean Commission (,M06,
+290,2017,COMESA countries not members of the FTA in 2007,M07,
+291,2017,AGADIR countries,M08,
+292,2017,Switzerland LDC GSP beneficiary countries in 2008,M10,
+293,2017,Switzerland GSP beneficiary  countries in 2008,M11,
+294,2017,COMESA Free Trade Area 2008,M12,
+295,2017,EU countries (32 territories):Switzerland 2009,M13,
+296,2017,Switzerland GSP beneficiary  countries in 2009,M14,
+297,2017,Preferential tariff for APTA(LDC)countries,M15,
+298,2017,COMESA countries not members of the FTA in 2009,M16,
+299,2017,Macao,MAC,
+300,2017,Morocco,MAR,0.103386531938861
+301,2017,Moldova,MDA,0.0900306877348881
+302,2017,Madagascar,MDG,0.0996181078944005
+303,2017,Maldives,MDV,0.203447081109355
+304,2017,Mexico,MEX,0.528087244388298
+305,2017,"Macedonia, FYR",MKD,0.192279827057707
+306,2017,Mali,MLI,0.234945634280518
+307,2017,Malta,MLT,0.0474006966745178
+308,2017,Myanmar,MMR,0.159293666420048
+309,2017,Mongolia,MNG,0.706686970979302
+310,2017,Montenegro,MNT,0.0715704047919973
+311,2017,Mozambique,MOZ,0.0669626197477275
+312,2017,Mauritania,MRT,0.115836081100941
+313,2017,Montserrat,MSR,0.368257215884507
+314,2017,Mauritius,MUS,0.0577991914531013
+315,2017,Malawi,MWI,0.0447068660857228
+316,2017,Malaysia,MYS,0.0781380344597074
+317,2017,Mayotte,MYT,
+318,2017,Developing Countries,N01,
+319,2017,European Union,N04,
+320,2017,European Free Trade Association,N05,
+321,2017,"ACP (Africa, Caribbean and Pacific)",N08,
+322,2017,Least Developed Countries,N09,
+323,2017,Maghreb Countries,N12,
+324,2017,UDEAC,N13,
+325,2017,ECOWAS,N14,
+326,2017,COMESA,N16,
+327,2017,"Bosnia, Croatia and Macedonia",N19,
+328,2017,TAG,N20,
+329,2017,AndeanGroup and Central American Common Market,N22,
+330,2017,COMESA,N23,
+331,2017,East African Community,N24,
+332,2017,COMESA Free Trade Area in 2003,N25,
+333,2017,SACU (Southern African Customs Union),N26,
+334,2017,COMESA Free Trade Area 2005,N27,
+335,2017,COMESA Free Trade Area 2006,N28,
+336,2017,Peru and Panama,N29,
+337,2017,LAIA (ALADI),N32,
+338,2017,Andean Pact countries,N33,
+339,2017,C. American Common Market,N34,
+340,2017,Caribbean Community,N35,
+341,2017,MERCOSUR,N37,
+342,2017,African Growth and Opportunity Act (AGOA) Preferen,N39,
+343,2017,ASEAN,N44,
+344,2017,Bangkok Agreement,N45,
+345,2017,SAARC,N47,
+346,2017,"Bhutan, Maldives, Nepal",N48,
+347,2017,AGOA beneficiaries: USA 2002,N49,
+348,2017,Caribbean Basin Trade Partnership Act : 2002      ,N51,
+349,2017,ASEAN,N52,
+350,2017,AGOA beneficiaries: USA 2004,N54,
+351,2017,EU beneficiaries:Switzerland 2004,N55,
+352,2017,EFTA beneficiaries:Switzerland 2004,N56,
+353,2017,GSP Beneficiaries: Switzerland 2004,N57,
+354,2017,SADC,N58,
+355,2017,CEMAC Member States,N59,
+356,2017,AGOA beneficiaries: USA 2005,N60,
+357,2017,Gulf Cooperation Council (GCC) countries,N61,
+358,2017,League of Arab States,N62,
+359,2017,EU25,N63,
+360,2017,Countries of the Protocol of 16,N64,
+361,2017,GSP Beneficiaries: Turkey 2005,N65,
+362,2017,"Caribbean Community
+ (CARICOM countries)",N66,
+363,2017,Caribbean Community - CARICOM LDC members,N67,
+364,2017,Caribbean Community - MDC members,N68,
+365,2017,UEMOA,N69,
+366,2017,Forum Islands Countries,N72,
+367,2017,Caribbean Basin Trade Partnership Act : 2006,N73,
+368,2017,SADC countries excluding South Africa,N74,
+369,2017,Preferential tariff for CAFTA countries,N75,
+370,2017,AGOA beneficiaries: USA 2006,N78,
+371,2017,Preferential tariff for MSG countries,N79,
+372,2017,CIS Countries,N80,
+373,2017,GSTP 48 Signatories,N82,
+374,2017,GSTP - LDCs,N85,
+375,2017,Forum Islands Countries,N86,
+376,2017,"Hong Kong, Korea Rep., Singapore, Taiwan",N87,
+377,2017,British Preferential Tariff for Canada,N88,
+378,2017,"Czech Rep.,Slovakia",N89,
+379,2017,Commonwealth Caribbean Countries,N90,
+380,2017,"Botswana, Namibia",N91,
+381,2017,"Australia, New Zealand",N92,
+382,2017,"Iceland, Liechtensten, Norway",N93,
+383,2017,"Estonia, Latvia, Lithuania",N94,
+384,2017,"Iran, Pakistan, Turkey",N95,
+385,2017,Trade Negotiations among Developing Countries (TND,N96,
+386,2017,Caribbean Economic Recovery Act,N97,
+387,2017,Namibia,NAM,0.073575425210906
+388,2017,Niger,NER,0.181931159164527
+389,2017,Nigeria,NGA,0.075246292135745
+390,2017,Nicaragua,NIC,0.398540663003045
+391,2017,Norway,NOR,0.089587899769034
+392,2017,Nepal,NPL,0.314191557497788
+393,2017,Nauru,NRU,
+394,2017,New Zealand,NZL,0.0949262036283145
+395,2017,AGOA beneficiaries: USA 2008,O02,
+396,2017,AGOA beneficiaries: USA 2009,O03,
+397,2017,AGOA beneficiaries: USA 2010,O04,
+398,2017,Oman,OMN,0.203108669234658
+399,2017,AGOA eligible countries for textiles and apparel,OT3,
+400,2017,EU Special incentive arrangement: 2006-2008,P00,
+401,2017,Overseas countries and Territories,P01,
+402,2017,Countries fighting drug,P02,
+403,2017,Non-MFN Countries: Japan 2006,P15,
+404,2017,East African Community (EAC),P21,
+405,2017,North American Free Trade Agreement (NAFTA),P22,
+406,2017,Preferential tariff for CARIFORUM countries,P23,
+407,2017,GSP Beneficiaries: EU 2010,P24,
+408,2017,"Botswana, Namibia, Swaziland",P25,
+409,2017,Preferential tariff for CAFTA countries 2011,P26,
+410,2017,GSP Beneficiaries: USA 2011,P27,
+411,2017,"CARIFORUM - EU EPA: (CARICOM, DOM, EU) ",P29,
+412,2017,Pakistan,PAK,0.0474447713297879
+413,2017,Panama,PAN,0.0624869534296417
+414,2017,Peru,PER,0.119327136218555
+415,2017,Philippines,PHL,0.0966092593013551
+416,2017,Palau,PLW,0.685040346540948
+417,2017,Papua New Guinea,PNG,
+418,2017,Poland,POL,0.0868010351052478
+419,2017,"Korea, Dem. Rep.",PRK,
+420,2017,Portugal,PRT,0.0783137154103735
+421,2017,Paraguay,PRY,0.142255714420222
+422,2017,Occ.Pal.Terr,PSE,0.191972574112962
+423,2017,French Polynesia,PYF,0.302248437514323
+424,2017,Preferential tariff for GSTP R. of Korea 2009,Q02,
+425,2017,Preferential tariff for SAARC 2009,Q06,
+426,2017,Qatar,QAT,0.0930461884020321
+427,2017,GSP Beneficiaries:Kazakhstan 2010,R30,
+428,2017,LDC Beneficiaries:Kazakhstan 2010,R50,
+429,2017,Romania,ROM,0.0766362840774985
+430,2017,Russian Federation,RUS,0.0360960656303727
+431,2017,Rwanda,RWA,0.276913461483622
+432,2017,Saudi Arabia,SAU,0.0676791365392019
+433,2017,Fm Sudan,SDN,
+434,2017,Senegal,SEN,0.106270772613692
+435,2017,"Serbia, FR(Serbia/Montenegro)",SER,0.0456267363761853
+436,2017,Singapore,SGP,0.0683075649986991
+437,2017,Solomon Islands,SLB,0.430003887595451
+438,2017,Sierra Leone,SLE,0.17145891493684
+439,2017,El Salvador,SLV,0.224712450173243
+440,2017,San Marino,SMR,
+441,2017,Sao Tome and Principe,STP,0.108166811501502
+442,2017,Sudan,SUD,0.281176261197879
+443,2017,Suriname,SUR,0.280235211389881
+444,2017,Slovak Republic,SVK,0.0752139047273798
+445,2017,Slovenia,SVN,0.0734479442660717
+446,2017,Sweden,SWE,0.0430786483748385
+447,2017,Swaziland,SWZ,0.380611276282704
+448,2017,Seychelles,SYC,0.0848235381765742
+449,2017,Syrian Arab Republic,SYR,
+450,2017,Trans-Pacific Strategic Ec. Prtnrshp. Agrmnt.,T00,
+451,2017,Chad,TCD,
+452,2017,Togo,TGO,0.0873384173633436
+453,2017,Thailand,THA,0.0566346507550237
+454,2017,Tajikistan,TJK,0.138454867579304
+455,2017,Turkmenistan,TKM,
+456,2017,East Timor,TMP,0.501934011611678
+457,2017,Tonga,TON,
+458,2017,Trinidad and Tobago,TTO,0.139857036054632
+459,2017,Tunisia,TUN,0.144896820123071
+460,2017,Turkey,TUR,0.0343522845201047
+461,2017,Tuvalu,TUV,
+462,2017,"Taiwan, China",TWN,
+463,2017,Tanzania,TZA,0.0936110490173567
+464,2017,Uganda,UGA,0.0836428363454665
+465,2017,Ukraine,UKR,0.0340799770617912
+466,2017,Unspecified,UNS,
+467,2017,Uruguay,URY,0.0911423021469744
+468,2017,United States,USA,0.0580520819350938
+469,2017,Uzbekistan,UZB,0.204734920597061
+470,2017,St. Vincent and the Grenadines,VCT,0.234813302490271
+471,2017,Venezuela,VEN,
+472,2017,Vietnam,VNM,0.0825558558869244
+473,2017,Vanuatu,VUT,
+474,2017,Samoa,WSM,0.182693995673125
+475,2017,Yemen,YEM,
+476,2017,"Yugoslavia,FR(Serbia/Montenegr",YUG,
+477,2017,South Africa,ZAF,0.0674112221914197
+478,2017,"Congo, Dem. Rep.",ZAR,0.223606029703581
+479,2017,Zambia,ZMB,0.195702936264607
+480,2017,Zimbabwe,ZWE,0.148587944053249
