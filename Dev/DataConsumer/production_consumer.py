@@ -80,11 +80,11 @@ class ProductionConsumer:
 
         return commercial_value  
 
-# TESTS
-path_production_folder = "data"
-pc = ProductionConsumer(path_production_folder=path_production_folder)
+# # TESTS
+# path_production_folder = "data"
+# pc = ProductionConsumer(path_production_folder=path_production_folder)
 
-product, year, country = "Antimony", 2014, "Mexico"
-commercial_value = pc.query_data(product=product, year=year, country=country)
-print(f"Commercial value for [{product}, {year}, {country}] is ${commercial_value}")
+# product, year, country = "Antimony", 2014, "Mexico"
+# commercial_value = pc.query_data(product=product, year=year, country=country)
+# print(f"Commercial value for [{product}, {year}, {country}] is ${commercial_value}")
 
