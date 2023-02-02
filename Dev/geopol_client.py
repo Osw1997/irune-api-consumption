@@ -3,7 +3,7 @@ import pandas as pd
 
 class GeopolriskConsumer:
     def __init__(self) -> None:
-        self.master_df = pd.read_csv("..\data\hhi_wgi_prod_only_important_cols.csv")
+        self.master_df = pd.read_csv("../data/hhi_wgi_prod_only_important_cols.csv")
 
         # Lista de elementos de interés
         classification_codes = {
