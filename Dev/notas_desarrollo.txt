@@ -1,0 +1,10 @@
+Notas
+* PAra el arvhico de producción se tienen registro de datos desde el año 1970
+* Para el archivo de EGSEHI la mayoría del registro de datos empieza en 1990
+* Esto implica que tengamos ausencia de datos de ~20 años (70-90)
+
+* En el archivo de produccón considera a estados unidos como "USA" 
+  y no como "United States" que es considerado en EGSEHI 
+	--> EGSEHI[donde_UnitedStates] = "USA"
+
+* Preguntar a Irune si estoy contemplado bien la llamada del API (reporter, partner)
