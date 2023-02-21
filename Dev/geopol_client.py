@@ -76,7 +76,7 @@ class GeopolriskConsumer:
                 continue
             list_partner.append(dataset["ptTitle"])
             list_pt3ISO.append(dataset["pt3ISO"])
-            list_tradeValues.append(float(dataset["TradeValue"]))
+            list_tradeValues.append(float(dataset["TradeValue"])) # Debe ser "TradeQuantity"
             list_year.append(dataset["yr"])
 
         # Get F upper case
