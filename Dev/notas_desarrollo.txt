@@ -8,3 +8,8 @@ Notas
 	--> EGSEHI[donde_UnitedStates] = "USA"
 
 * Preguntar a Irune si estoy contemplado bien la llamada del API (reporter, partner)
+
+
+========================
+21/feb/2023
+El HHI obtenido no coincide con el 6.5... (World Mining Data) porque el valor reportado es distinto entre archivos
