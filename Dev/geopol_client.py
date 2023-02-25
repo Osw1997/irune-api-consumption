@@ -1,9 +1,11 @@
+from unittest import result
 from DataConsumer.comtrade_consumer import ComtradeConsumer
 import pandas as pd
 
 class GeopolriskConsumer:
     def __init__(self) -> None:
-        self.master_df = pd.read_csv("../data/hhi_wgi_prod_only_important_cols.csv")
+        # self.master_df = pd.read_csv("../data/hhi_wgi_prod_only_important_cols.csv")
+        self.master_df = pd.read_csv("../data/hhi_production_egsehi_conformed_table.csv")
 
         # Lista de elementos de interés
         classification_codes = {
@@ -76,7 +78,8 @@ class GeopolriskConsumer:
                 continue
             list_partner.append(dataset["ptTitle"])
             list_pt3ISO.append(dataset["pt3ISO"])
-            list_tradeValues.append(float(dataset["TradeValue"])) # Debe ser "TradeQuantity"
+            # list_tradeValues.append(float(dataset["TradeValue"])) # Debe ser "TradeQuantity"
+            list_tradeValues.append(float(dataset["TradeQuantity"])) # Debe ser "TradeQuantity"
             list_year.append(dataset["yr"])
 
         # Get F upper case
@@ -93,19 +96,58 @@ class GeopolriskConsumer:
 
         return temp_df
     
-    def get_geopol_risk(self, list_tuples):
+    # def get_geopol_risk_deprecated(self, list_tuples):
 
+    #     total_result_df = pd.DataFrame({
+    #         "Year": [], "Country": [], "Product": [], "iso3code": [],
+    #         "hhi": [], "Stability value": [], "CRI score": [],
+    #         "Domestic Production Value": [], "Reporter": [], "Partner":	[],
+    #         "ISO3 Code": [], "Imports": [], "Total Imports": [], "YearLog":[], 
+    #         "Geopolitical Risk": []
+    #     })
+
+    #     total_condensed_result_df = pd.DataFrame({
+    #         "Product": [], "Country": [], "Year": [], "Geopolitical Risk": []
+    #     })
+
+    #     for tuple in list_tuples:
+    #         country, product, ps = tuple[0], tuple[1], tuple[2]
+
+    #         # Filter FACT table with user parameters
+    #         valid_rows = (self.master_df["Country"] == country.upper()) & (self.master_df["Product"] == product.upper()) & (self.master_df['Year'] == ps)
+    #         filtered_fact_df = self.master_df[valid_rows]
+
+    #         # Query Comtrade API
+    #         comtrade_df = self.query_comtrade_api(country, product, ps)
+
+    #         # Merge filtered FACT table and comtrade result table
+    #         result_df = pd.merge(left=filtered_fact_df, right=comtrade_df, how="left", left_on=["Year", "Country"], right_on=["YearLog", "Reporter"])
+    #         # Work out the Geopolitical Risk
+    #         result_df["Geopolitical Risk"] = result_df["hhi"] * (result_df["Stability value"] * result_df["Imports"] / (result_df["Domestic Production Value"] + result_df["Total Imports"]))
+
+    #         condensed_result_df = result_df[["Product", "Country", "Year", "Geopolitical Risk"]].groupby(by=["Product", "Country", "Year"]).sum()
+
+    #         total_result_df = pd.concat([total_result_df, result_df])
+    #         total_condensed_result_df = pd.concat([total_condensed_result_df, condensed_result_df])
+        
+        return total_result_df, total_condensed_result_df
+
+    def get_geopol_risk(self, list_tuples):
         total_result_df = pd.DataFrame({
-            "Year": [], "Country": [], "Product": [], "iso3code": [],
-            "hhi": [], "Stability value": [], "CRI score": [],
-            "Domestic Production Value": [], "Reporter": [], "Partner":	[],
-            "ISO3 Code": [], "Imports": [], "Total Imports": [], "YearLog":[], 
-            "Geopolitical Risk": []
+            "Year": [], "Country": [], "Domestic Production Value (P_AC)": [], "Product": [], "ISO3": [], 
+            "value_economic": [], "no_value_economic": [], "value_governance": [], "no_value_governance": [], "value_social": [], "no_value_social": [],
+            "value_ecosystems": [], "no_value_ecosystems": [], "value_habitat": [], "no_value_habitat": [], "value_infrastructure": [], "no_value_infrastructure": [],
+            "EGSEHI": [], "EGSEHI_6root": [], "Value": [], "reporterCode": [], "Total_value_YearProduct": [], "Share in % (production)": [], "Share HHI Production": [], "HHI_production": [],
+            "classificationCode": [], "classificationSearchCode": [], "cmdCode": [], "cmdDesc": [], "netWgt": [], "primaryValue": [], "Total_netWgt_YearProduct": [],
+            "Share in % (exports)": [], "Share HHI Exports": [], "HHI_exports": [], "Partner": [], "ISO3 Code": [], "Imports": [], "Total Imports": [],
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": []
         })
 
         total_condensed_result_df = pd.DataFrame({
-            "Product": [], "Country": [], "Year": [], "Geopolitical Risk": []
+            "Product": [], "Country": [], "Year": [], "cmdCode": [], 
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": []
         })
+
 
         for tuple in list_tuples:
             country, product, ps = tuple[0], tuple[1], tuple[2]
@@ -120,9 +162,14 @@ class GeopolriskConsumer:
             # Merge filtered FACT table and comtrade result table
             result_df = pd.merge(left=filtered_fact_df, right=comtrade_df, how="left", left_on=["Year", "Country"], right_on=["YearLog", "Reporter"])
             # Work out the Geopolitical Risk
-            result_df["Geopolitical Risk"] = result_df["hhi"] * (result_df["Stability value"] * result_df["Imports"] / (result_df["Domestic Production Value"] + result_df["Total Imports"]))
+            result_df["Geopolitical Risk Production"] = result_df["HHI_production"] * (result_df["EGSEHI_6root"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
+            result_df["Geopolitical Risk Exports"] = result_df["HHI_exports"] * (result_df["EGSEHI_6root"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
 
-            condensed_result_df = result_df[["Product", "Country", "Year", "Geopolitical Risk"]].groupby(by=["Product", "Country", "Year"]).sum()
+            # Query only "important" columns
+            result_df = result_df[list(total_result_df.keys())]
+
+
+            condensed_result_df = result_df[["Product", "Country", "Year", "cmdCode", "Geopolitical Risk Production", "Geopolitical Risk Exports"]].groupby(by=["Product", "Country", "Year", "cmdCode"]).sum()
 
             total_result_df = pd.concat([total_result_df, result_df])
             total_condensed_result_df = pd.concat([total_condensed_result_df, condensed_result_df])
