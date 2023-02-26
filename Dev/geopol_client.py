@@ -83,7 +83,8 @@ class GeopolriskConsumer:
             list_year.append(dataset["yr"])
 
         # Get F upper case
-        F_tradeValue = float(datasets[index_world]["TradeValue"])
+        # F_tradeValue = float(datasets[index_world]["TradeValue"])
+        F_tradeValue = float(datasets[index_world]["TradeQuantity"])
 
         temp_df = pd.DataFrame({
             "Reporter": [country.upper()] * (len(datasets) - 1),
@@ -140,12 +141,13 @@ class GeopolriskConsumer:
             "EGSEHI": [], "EGSEHI_6root": [], "Value": [], "reporterCode": [], "Total_value_YearProduct": [], "Share in % (production)": [], "Share HHI Production": [], "HHI_production": [],
             "classificationCode": [], "classificationSearchCode": [], "cmdCode": [], "cmdDesc": [], "netWgt": [], "primaryValue": [], "Total_netWgt_YearProduct": [],
             "Share in % (exports)": [], "Share HHI Exports": [], "HHI_exports": [], "Partner": [], "ISO3 Code": [], "Imports": [], "Total Imports": [],
-            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": []
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
         })
 
         total_condensed_result_df = pd.DataFrame({
             "Product": [], "Country": [], "Year": [], "cmdCode": [], 
-            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": []
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], 
+            "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
         })
 
 
@@ -165,11 +167,14 @@ class GeopolriskConsumer:
             result_df["Geopolitical Risk Production"] = result_df["HHI_production"] * (result_df["EGSEHI_6root"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
             result_df["Geopolitical Risk Exports"] = result_df["HHI_exports"] * (result_df["EGSEHI_6root"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
 
+            result_df["Geopolitical Risk Production NO-ROOT"] = result_df["HHI_production"] * (result_df["EGSEHI"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
+            result_df["Geopolitical Risk Exports NO-ROOT"] = result_df["HHI_exports"] * (result_df["EGSEHI"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
+
             # Query only "important" columns
             result_df = result_df[list(total_result_df.keys())]
 
 
-            condensed_result_df = result_df[["Product", "Country", "Year", "cmdCode", "Geopolitical Risk Production", "Geopolitical Risk Exports"]].groupby(by=["Product", "Country", "Year", "cmdCode"]).sum()
+            condensed_result_df = result_df[["Product", "Country", "Year", "cmdCode", "Geopolitical Risk Production", "Geopolitical Risk Exports", "Geopolitical Risk Production NO-ROOT", "Geopolitical Risk Exports NO-ROOT"]].groupby(by=["Product", "Country", "Year", "cmdCode"], as_index=False).sum()
 
             total_result_df = pd.concat([total_result_df, result_df])
             total_condensed_result_df = pd.concat([total_condensed_result_df, condensed_result_df])
