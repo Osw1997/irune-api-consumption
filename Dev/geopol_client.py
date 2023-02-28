@@ -5,7 +5,7 @@ import pandas as pd
 class GeopolriskConsumer:
     def __init__(self) -> None:
         # self.master_df = pd.read_csv("../data/hhi_wgi_prod_only_important_cols.csv")
-        self.master_df = pd.read_csv("../data/hhi_production_egsehi_conformed_table.csv")
+        self.master_df = pd.read_csv("../data/hhi_production_exports_egsehi_conformed_table.csv")
 
         # Lista de elementos de interés
         classification_codes = {
@@ -138,15 +138,17 @@ class GeopolriskConsumer:
             "Year": [], "Country": [], "Domestic Production Value (P_AC)": [], "Product": [], "ISO3": [], 
             "value_economic": [], "no_value_economic": [], "value_governance": [], "no_value_governance": [], "value_social": [], "no_value_social": [],
             "value_ecosystems": [], "no_value_ecosystems": [], "value_habitat": [], "no_value_habitat": [], "value_infrastructure": [], "no_value_infrastructure": [],
+            "value_governance_isolated": [], "no_value_governance_isolated": [],
             "EGSEHI": [], "EGSEHI_6root": [], "Value": [], "reporterCode": [], "Total_value_YearProduct": [], "Share in % (production)": [], "Share HHI Production": [], "HHI_production": [],
             "classificationCode": [], "classificationSearchCode": [], "cmdCode": [], "cmdDesc": [], "netWgt": [], "primaryValue": [], "Total_netWgt_YearProduct": [],
             "Share in % (exports)": [], "Share HHI Exports": [], "HHI_exports": [], "Partner": [], "ISO3 Code": [], "Imports": [], "Total Imports": [],
-            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], "Geopolitical Risk Only Political Stability": [],
+            "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
         })
 
         total_condensed_result_df = pd.DataFrame({
             "Product": [], "Country": [], "Year": [], "cmdCode": [], 
-            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], 
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], "Geopolitical Risk Only Political Risk": [],
             "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
         })
 
@@ -166,6 +168,7 @@ class GeopolriskConsumer:
             # Work out the Geopolitical Risk
             result_df["Geopolitical Risk Production"] = result_df["HHI_production"] * (result_df["EGSEHI_6root"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
             result_df["Geopolitical Risk Exports"] = result_df["HHI_exports"] * (result_df["EGSEHI_6root"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
+            result_df["Geopolitical Risk Only Political Stability"] = result_df["HHI_exports"] * (result_df["value_governance_isolated"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
 
             result_df["Geopolitical Risk Production NO-ROOT"] = result_df["HHI_production"] * (result_df["EGSEHI"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
             result_df["Geopolitical Risk Exports NO-ROOT"] = result_df["HHI_exports"] * (result_df["EGSEHI"] * result_df["Imports"] / (result_df["Total_value_YearProduct"] + result_df["Total Imports"]))
@@ -174,7 +177,10 @@ class GeopolriskConsumer:
             result_df = result_df[list(total_result_df.keys())]
 
 
-            condensed_result_df = result_df[["Product", "Country", "Year", "cmdCode", "Geopolitical Risk Production", "Geopolitical Risk Exports", "Geopolitical Risk Production NO-ROOT", "Geopolitical Risk Exports NO-ROOT"]].groupby(by=["Product", "Country", "Year", "cmdCode"], as_index=False).sum()
+            condensed_result_df = result_df[["Product", "Country", "Year", "cmdCode", 
+                                                "Geopolitical Risk Production", "Geopolitical Risk Exports", "Geopolitical Risk Only Political Stability",
+                                                "Geopolitical Risk Production NO-ROOT", "Geopolitical Risk Exports NO-ROOT"]
+                                            ].groupby(by=["Product", "Country", "Year", "cmdCode"], as_index=False).sum()
 
             total_result_df = pd.concat([total_result_df, result_df])
             total_condensed_result_df = pd.concat([total_condensed_result_df, condensed_result_df])
