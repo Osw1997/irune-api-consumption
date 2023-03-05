@@ -56,12 +56,6 @@ class GeopolriskConsumer:
                 return dict_country["id"]
         raise ValueError(f"Country {country} does not exist.")
 
-    def get_country_code(self, country):
-        for dict_country in self.list_reporter_countries:
-            if dict_country["text"].upper() == country.upper():
-                return dict_country["id"]
-        raise ValueError(f"Country {country} does not exist.")
-
     def query_comtrade_api(self, country, product, ps):
         r = self.get_country_code(country)
         cc = self.classification_codes[product.upper()]
@@ -148,7 +142,7 @@ class GeopolriskConsumer:
 
         total_condensed_result_df = pd.DataFrame({
             "Product": [], "Country": [], "Year": [], "cmdCode": [], 
-            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], "Geopolitical Risk Only Political Risk": [],
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], "Geopolitical Risk Only Political Stability": [],
             "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
         })
 
