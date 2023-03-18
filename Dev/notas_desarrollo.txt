@@ -13,3 +13,9 @@ Notas
 ========================
 21/feb/2023
 El HHI obtenido no coincide con el 6.5... (World Mining Data) porque el valor reportado es distinto entre archivos
+
+
+========================
+18/marzo/2023
+In WMD2022 Commodities 1984-2020
+Se considero zircon = zirconium and coal = cooking coal

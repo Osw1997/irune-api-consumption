@@ -20,7 +20,7 @@ class GeopolriskConsumer:
             "Lead": 2607,
             "Lithium": 283691,
             "Magnesite": 251910,
-            "Magnesium": 251910,
+            "Magnesium": 251910, 
             "Manganese": 2602,
             "Mercury": 280540,
             "Molybdenum": 2613,
