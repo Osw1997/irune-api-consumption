@@ -1,3 +1,4 @@
+from executing import Source
 import pandas as pd
 
 class GeopolriskConsumer:
@@ -5,6 +6,8 @@ class GeopolriskConsumer:
         self.master_df = pd.read_csv("../data/all_consolidated_data/all_consolidated_data_noWorld.csv")
 
         classification_codes = {
+            "Aluminium": 2606,
+            
             "Antimony": 261710,
             "Asbestos": 2524,
             "Barytes": 2511,
@@ -20,7 +23,9 @@ class GeopolriskConsumer:
             "Lead": 2607,
             "Lithium": 283691,
             "Magnesite": 251910,
-            "Magnesium": 251910, 
+
+            "Magnesium": 810411,
+
             "Manganese": 2602,
             "Mercury": 280540,
             "Molybdenum": 2613,
@@ -44,17 +49,19 @@ class GeopolriskConsumer:
             "Year": [], "Country": [], "Domestic Production Value (P_AC)": [], "Product": [], "ISO3": [], 
             "value_economic": [], "no_value_economic": [], "value_governance": [], "no_value_governance": [], "value_social": [], "no_value_social": [],
             "value_ecosystems": [], "no_value_ecosystems": [], "value_habitat": [], "no_value_habitat": [], "value_infrastructure": [], "no_value_infrastructure": [],
-            "value_governance_isolated": [], "no_value_governance_isolated": [],
+            "value_governance_isolated": [], "no_value_governance_isolated": [], "Source": [],
             "EGSEHI": [], "EGSEHI_6root": [], "Value": [], "reporterCode": [], "Total_value_YearProduct": [], "Share in % (production)": [], "Share HHI Production": [], "HHI_production": [],
             "classificationCode": [], "cmdCode": [], "cmdDesc": [], "netWgt": [], "primaryValue": [], "Total_netWgt_YearProduct": [],
             "Share in % (exports)": [], "Share HHI Exports": [], "HHI_exports": [], "partnerDesc_import": [], "partnerISO_import": [], "netWgt_import": [], "netWgt_total_import": [],
-            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], "Geopolitical Risk Only Political Stability": [],
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], 
+            "Geopolitical Risk Only Political Stability Production": [], "Geopolitical Risk Only Political Stability Exports": [],
             "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
         })
 
         total_condensed_result_df = pd.DataFrame({
-            "Product": [], "Country": [], "Year": [], "cmdCode": [], 
-            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], "Geopolitical Risk Only Political Stability": [],
+            "Product": [], "Country": [], "Year": [], "cmdCode": [], "Source": [],
+            "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], 
+            "Geopolitical Risk Only Political Stability Production": [], "Geopolitical Risk Only Political Stability Exports": [],
             "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
         })
 
@@ -74,10 +81,11 @@ class GeopolriskConsumer:
             total_result_df = pd.concat([total_result_df, result_df])
 
             # summarized results
-            condensed_result_df = result_df[["Product", "Country", "Year", "cmdCode", 
-                                                "Geopolitical Risk Production", "Geopolitical Risk Exports", "Geopolitical Risk Only Political Stability",
+            condensed_result_df = result_df[["Product", "Country", "Year", "cmdCode", "Source",
+                                                "Geopolitical Risk Production", "Geopolitical Risk Exports", 
+                                                "Geopolitical Risk Only Political Stability Production", "Geopolitical Risk Only Political Stability Exports",
                                                 "Geopolitical Risk Production NO-ROOT", "Geopolitical Risk Exports NO-ROOT"]
-                                            ].groupby(by=["Product", "Country", "Year", "cmdCode"], as_index=False).sum()
+                                            ].groupby(by=["Product", "Country", "Year", "cmdCode", "Source"], as_index=False).sum()
             total_condensed_result_df = pd.concat([total_condensed_result_df, condensed_result_df])
 
         return total_result_df, total_condensed_result_df
