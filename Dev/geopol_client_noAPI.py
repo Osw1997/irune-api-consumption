@@ -47,7 +47,9 @@ class GeopolriskConsumer:
     def get_geopol_risk(self, list_tuples):
         total_result_df = pd.DataFrame({
             "Year": [], "Country": [], "Domestic Production Value (P_AC)": [], "Product": [], "ISO3": [], 
-            "value_economic": [], "no_value_economic": [], "value_governance": [], "no_value_governance": [], "value_social": [], "no_value_social": [],
+            "value_economic": [], "no_value_economic": [], "value_economic_original": [], 
+            "value_governance": [], "no_value_governance": [], "value_governance_original": [],
+            "value_social": [], "no_value_social": [], "value_social_original": [],
             "value_ecosystems": [], "no_value_ecosystems": [], "value_habitat": [], "no_value_habitat": [], "value_infrastructure": [], "no_value_infrastructure": [],
             "value_governance_isolated": [], "no_value_governance_isolated": [], "Source": [],
             "EGSEHI": [], "EGSEHI_6root": [], "Value": [], "reporterCode": [], "Total_value_YearProduct": [], "Share in % (production)": [], "Share HHI Production": [], "HHI_production": [],

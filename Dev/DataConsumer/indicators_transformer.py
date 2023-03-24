@@ -16,7 +16,8 @@ for indicator in indicators:
             id_vars=["ISO3", "Name"],
             var_name="Year",
             value_name=column_value
-        )
+        )        
+
         # Create a flag that indicates if value is real or mean
         melted_df[f"no_{column_value}"] = melted_df[column_value].isna()
         # Get mean by year and replace nan values by mean
@@ -25,6 +26,12 @@ for indicator in indicators:
         final_df = pd.merge(melted_df, mean_df, how="left", on="Year")
         final_df.loc[final_df[column_value].isna(), column_value] = final_df["mean"]
         del final_df["mean"]
+
+        # Agregar columnas extra para indicar valores originales
+        if indicator == "readiness":
+            final_df[f"{column_value}_original"] = final_df[column_value]
+            final_df[column_value] = 1 - final_df[column_value]
+
         # Save result to CSV
         melted_filename = f"melted_{file}"
         final_df.to_csv(f"../../data/resources/{indicator}/{melted_filename}", index=False)
