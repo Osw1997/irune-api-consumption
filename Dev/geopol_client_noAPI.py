@@ -46,7 +46,8 @@ class GeopolriskConsumer:
 
     def get_geopol_risk(self, list_tuples):
         total_result_df = pd.DataFrame({
-            "Year": [], "Country": [], "Domestic Production Value (P_AC)": [], "Product": [], "ISO3": [], 
+            # "Year": [], "Country": [], "Domestic Production Value (P_AC)": [], "Product": [], "ISO3": [], 
+            "Year": [], "reporterDesc": [], "Domestic Production Value (P_AC)": [], "Product": [], "ISO3": [], 
             "value_economic": [], "no_value_economic": [], "value_economic_original": [], 
             "value_governance": [], "no_value_governance": [], "value_governance_original": [],
             "value_social": [], "no_value_social": [], "value_social_original": [],
@@ -61,7 +62,8 @@ class GeopolriskConsumer:
         })
 
         total_condensed_result_df = pd.DataFrame({
-            "Product": [], "Country": [], "Year": [], "cmdCode": [], "Source": [],
+            # "Product": [], "Country": [], "Year": [], "cmdCode": [], "Source": [],
+            "Product": [], "reporterDesc": [], "Year": [], "cmdCode": [], "Source": [],
             "Geopolitical Risk Production": [], "Geopolitical Risk Exports": [], 
             "Geopolitical Risk Only Political Stability Production": [], "Geopolitical Risk Only Political Stability Exports": [],
             "Geopolitical Risk Production NO-ROOT": [], "Geopolitical Risk Exports NO-ROOT": []
@@ -70,7 +72,7 @@ class GeopolriskConsumer:
         for tuple in list_tuples:
             country, product, ps = tuple[0], tuple[1], tuple[2]
 
-            country_rows = self.master_df["Country"] == country.upper()
+            country_rows = self.master_df["reporterDesc"] == country.upper()
             product_rows = self.master_df["cmdCode"] == self.classification_codes[product.upper()]
             year_rows = self.master_df["Year"] == ps
             result_df = self.master_df[(country_rows) & (product_rows) & (year_rows)]
@@ -83,11 +85,13 @@ class GeopolriskConsumer:
             total_result_df = pd.concat([total_result_df, result_df])
 
             # summarized results
-            condensed_result_df = result_df[["Product", "Country", "Year", "cmdCode", "Source",
-                                                "Geopolitical Risk Production", "Geopolitical Risk Exports", 
-                                                "Geopolitical Risk Only Political Stability Production", "Geopolitical Risk Only Political Stability Exports",
-                                                "Geopolitical Risk Production NO-ROOT", "Geopolitical Risk Exports NO-ROOT"]
-                                            ].groupby(by=["Product", "Country", "Year", "cmdCode", "Source"], as_index=False).sum()
+            condensed_result_df = result_df[
+                # ["Product", "Country", "Year", "cmdCode", "Source",
+                ["Product", "reporterDesc", "Year", "cmdCode", "Source",
+                    "Geopolitical Risk Production", "Geopolitical Risk Exports", 
+                    "Geopolitical Risk Only Political Stability Production", "Geopolitical Risk Only Political Stability Exports",
+                    "Geopolitical Risk Production NO-ROOT", "Geopolitical Risk Exports NO-ROOT"]
+                ].groupby(by=["Product", "reporterDesc", "Year", "cmdCode", "Source"], as_index=False).sum()
             total_condensed_result_df = pd.concat([total_condensed_result_df, condensed_result_df])
 
         return total_result_df, total_condensed_result_df
